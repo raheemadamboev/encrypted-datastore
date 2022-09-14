@@ -1,4 +1,4 @@
-package xyz.teamgravity.encrypteddatastore.ui.theme
+package xyz.teamgravity.encrypteddatastore.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

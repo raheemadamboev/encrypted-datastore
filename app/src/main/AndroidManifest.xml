@@ -14,7 +14,7 @@
         android:theme="@style/Theme.EncryptedDataStore"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="xyz.teamgravity.encrypteddatastore.presentation.activity.Main"
             android:exported="true"
             android:theme="@style/Theme.EncryptedDataStore">
             <intent-filter>
