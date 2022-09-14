@@ -28,14 +28,14 @@ fun LoginScreen(
         TextField(
             value = viewmodel.username,
             onValueChange = viewmodel::onUsernameChange,
-            placeholder = { Text(text = stringResource(id = R.string.username)) },
+            label = { Text(text = stringResource(id = R.string.username)) },
             modifier = Modifier.fillMaxWidth()
         )
         Spacer(modifier = Modifier.height(10.dp))
         TextField(
             value = viewmodel.password,
             onValueChange = viewmodel::onPasswordChange,
-            placeholder = { Text(text = stringResource(id = R.string.password)) },
+            label = { Text(text = stringResource(id = R.string.password)) },
             modifier = Modifier.fillMaxWidth()
         )
         Spacer(modifier = Modifier.height(10.dp))
