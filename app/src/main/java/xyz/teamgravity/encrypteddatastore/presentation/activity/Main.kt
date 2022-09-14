@@ -7,8 +7,11 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import dagger.hilt.android.AndroidEntryPoint
+import xyz.teamgravity.encrypteddatastore.presentation.screen.LoginScreen
 import xyz.teamgravity.encrypteddatastore.presentation.theme.EncryptedDataStoreTheme
 
+@AndroidEntryPoint
 class Main : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +22,7 @@ class Main : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-
+                    LoginScreen()
                 }
             }
         }
